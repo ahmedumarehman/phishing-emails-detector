@@ -1,0 +1,59 @@
+virus total API key : 12b5f3af3d2cda562d20133880586241dc2ccbe2c840349275f7a07c1e204b4a
+
+
+
+hosting firebase code 
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAl7_kwdQKaw7o_p03FiuPlCl_F-eyJ33s",
+  authDomain: "email-phishing-1e4d5.firebaseapp.com",
+  projectId: "email-phishing-1e4d5",
+  storageBucket: "email-phishing-1e4d5.firebasestorage.app",
+  messagingSenderId: "467500077662",
+  appId: "1:467500077662:web:7cd73e1efbcef809279acf",
+  measurementId: "G-84RHHEB650"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+Install Firebase CLI
+To host your site with Firebase Hosting, you need the Firebase CLI (a command line tool).
+
+Run the following npm command to install the CLI or update to the latest CLI version.
+
+npm install -g firebase-tools
+Doesn't work? Take a look at the Firebase CLI reference or change your npm permissions
+
+Also show me the steps to add the Firebase JavaScript SDK to my web app
+The SDK includes Cloud Firestore, Authentication, Performance Monitoring and more. It can be added now or later.
+
+Open a terminal window and navigate to or create a root directory for your web app
+
+Sign in to Google
+firebase login
+Initiate your project
+Run this command from your app's root directory:
+
+firebase init
+
+
+Deploy to Firebase Hosting
+When you're ready, deploy your web app
+Put your static files (e.g. HTML, CSS, JS) in your app's deploy directory (the default is 'public'). Then, run this command from your app's root directory:
+
+firebase deploy
+After deploying, view your app at email-phishing-1e4d5.web.app
+
+Need help? Take a look at the Hosting docs
+
